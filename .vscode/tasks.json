@@ -1,0 +1,53 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "sqlproj: Build DatabaseProjectfree-sql-db-1920191",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"p:/analysis-cloud-project/DatabaseProjectfree-sql-db-1920191/DatabaseProjectfree-sql-db-1920191.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the DatabaseProjectfree-sql-db-1920191 SQL project"
+		},
+		{
+			"label": "sqlproj: Build joy",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"p:/analysis-cloud-project/00_synthetic_data/sql/data/joy/joy.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the joy SQL project"
+		},
+		{
+			"label": "sqlproj: Build restaurentops",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"p:/analysis-cloud-project/restaurentops/restaurentops.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the restaurentops SQL project"
+		}
+	]
+}
