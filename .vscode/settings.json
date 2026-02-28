@@ -1,0 +1,8 @@
+{
+    "dataworkspace.excludedProjects": [
+        "00_synthetic_data/sql/data/joy/joy.sqlproj",
+        "DatabaseProjectfree-sql-db-1920191/DatabaseProjectfree-sql-db-1920191.sqlproj",
+        "joy/joy.sqlproj",
+        "restaurentops/restaurentops.sqlproj"
+    ]
+}
